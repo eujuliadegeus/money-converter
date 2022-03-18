@@ -1,0 +1,123 @@
+* {
+    font-family: 'Roboto', sans-serif;;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    line-height: 18px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+body {
+    background-color: #E5E5E5;
+}
+
+.container {
+    width: 375px;
+    background-color: #F4F4F4;
+    margin: 100px auto;
+
+}
+
+header {
+    background-color: #1B83E2;
+    height: 66px;
+}
+
+h1 {
+    font-size: 24px;
+    color: #F4F4F4;
+    padding-top: 24px;
+    text-align: center;
+    
+}
+
+main {
+    padding-left: 24px;
+    padding-right: 24px;
+    margin-top: 23px;
+    
+}
+
+label {
+    font-size: 14px;
+    color: #777777;
+}
+
+select {
+    background: #FFFFFF;
+    border: 1px solid #BBBBBB;
+    border-radius: 4px;
+    height: 48px;
+    display: block;
+    width: 100%;
+    cursor: pointer;
+    appearance: none;
+    padding-left: 16px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.15);
+    margin-top: 6px;
+    margin-bottom: 24px;
+}
+
+input {
+    background: #FFFFFF;
+    border: 1px solid #BBBBBB;
+    border-radius: 4px;
+    height: 48px;
+    display: block;
+    width: 100%;
+    margin-top: 6px;
+    padding-left: 16px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.15);
+    font-weight: 700;
+    font-size: 16px;
+}
+
+button {
+    background: #1B83E2;
+    border-radius: 25px;
+    height: 48px;
+    width: 100%;
+    font-weight: 700;
+    font-size: 16px;
+    color: #F4F4F4;
+    margin-top: 24px;
+    border-style: none;
+    cursor: pointer;
+    margin-bottom: 36px;
+}
+
+button:hover {
+    opacity: 0.9;
+}
+
+button:active {
+    opacity: 0.7;
+}
+
+section {
+    border: 1px solid #1B83E2;
+    border-radius: 4px;
+    
+}
+
+.containers {
+    text-align: center;
+    padding: 10px;
+}
+
+.coinsNames {
+    font-size: 14px;
+    color: #777777;
+}
+
+.values{
+    font-weight: 700;
+    font-size: 20px;
+    color: #1B83E2;
+}
+
+.vector{
+    display: block;
+    margin: 15px auto;
+}
